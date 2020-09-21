@@ -1,0 +1,24 @@
+## Build generated
+build/
+DerivedData
+
+
+
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+
+Carthage/
+
+
+.build
+Package.resolved
+
+.DS_Store
+**/.idea/**
