@@ -133,7 +133,19 @@
 		232854D325185D4000DCDC27 /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232854C525185CBA00DCDC27 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232854D525185D4A00DCDC27 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232854C525185CBA00DCDC27 /* RxAlamofire.framework */; };
 		232854D625185D4A00DCDC27 /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232854C525185CBA00DCDC27 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		232854D825187C2F00DCDC27 /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
+		232854D925187C2F00DCDC27 /* KakaoSDKCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		232854DA25187C2F00DCDC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2328530B251847DD00DCDC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232853232518487F00DCDC27;
+			remoteInfo = KakaoSDKCommon;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		232854B525185B7300DCDC27 /* Embed Frameworks */ = {
@@ -153,6 +165,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				232854D925187C2F00DCDC27 /* KakaoSDKCommon.framework in Embed Frameworks */,
 				232854B725185C1800DCDC27 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -418,6 +431,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232854D825187C2F00DCDC27 /* KakaoSDKCommon.framework in Frameworks */,
 				232854B625185C1800DCDC27 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1293,6 +1307,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				232854DB25187C2F00DCDC27 /* PBXTargetDependency */,
 			);
 			name = KakaoSDKAuth;
 			productName = KakaoSDKAuth;
@@ -1885,6 +1900,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		232854DB25187C2F00DCDC27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232853232518487F00DCDC27 /* KakaoSDKCommon */;
+			targetProxy = 232854DA25187C2F00DCDC27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		2328531A251847DD00DCDC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1923,6 +1946,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1986,6 +2010,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
