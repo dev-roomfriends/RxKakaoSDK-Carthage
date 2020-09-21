@@ -135,10 +135,83 @@
 		232854D625185D4A00DCDC27 /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232854C525185CBA00DCDC27 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		232854D825187C2F00DCDC27 /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
 		232854D925187C2F00DCDC27 /* KakaoSDKCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23C76ECC251889B500D360AF /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
+		23C76ECD251889B500D360AF /* KakaoSDKCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23C76ED0251889BB00D360AF /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
+		23C76ED1251889BB00D360AF /* KakaoSDKCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23C76ED5251889BD00D360AF /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
+		23C76ED6251889BD00D360AF /* KakaoSDKCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23C76ED9251889C000D360AF /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
+		23C76EDA251889C000D360AF /* KakaoSDKCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23C76EDD251889C500D360AF /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
+		23C76EDE251889C500D360AF /* KakaoSDKCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23C76EE2251889C700D360AF /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
+		23C76EE3251889C700D360AF /* KakaoSDKCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23C76EED251889F400D360AF /* RxKakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328544525184A2300DCDC27 /* RxKakaoSDKCommon.framework */; };
+		23C76EEE251889FB00D360AF /* RxKakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328544525184A2300DCDC27 /* RxKakaoSDKCommon.framework */; };
+		23C76EF0251889FD00D360AF /* RxKakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328544525184A2300DCDC27 /* RxKakaoSDKCommon.framework */; };
+		23C76EF1251889FD00D360AF /* RxKakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328544525184A2300DCDC27 /* RxKakaoSDKCommon.framework */; };
+		23C76EF2251889FE00D360AF /* RxKakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328544525184A2300DCDC27 /* RxKakaoSDKCommon.framework */; };
+		23C76EF325188A2300D360AF /* KakaoSDKTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853F82518499C00DCDC27 /* KakaoSDKTemplate.framework */; };
+		23C76EF425188A5100D360AF /* KakaoSDKAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23285361251848C700DCDC27 /* KakaoSDKAuth.framework */; };
+		23C76EF625188A8300D360AF /* KakaoSDKAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23285361251848C700DCDC27 /* KakaoSDKAuth.framework */; };
+		23C76EF725188A8900D360AF /* KakaoSDKTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853F82518499C00DCDC27 /* KakaoSDKTemplate.framework */; };
+		23C76EF825188B2900D360AF /* KakaoSDKAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23285361251848C700DCDC27 /* KakaoSDKAuth.framework */; };
+		23C76EF925188B5F00D360AF /* KakaoSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853242518487F00DCDC27 /* KakaoSDKCommon.framework */; };
+		23C76EFA25188B7C00D360AF /* KakaoSDKLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23285388251848F400DCDC27 /* KakaoSDKLink.framework */; };
+		23C76EFB25188B8600D360AF /* KakaoSDKTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853F82518499C00DCDC27 /* KakaoSDKTemplate.framework */; };
+		23C76EFC25188BAC00D360AF /* RxKakaoSDKAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328542C251849F200DCDC27 /* RxKakaoSDKAuth.framework */; };
+		23C76EFD25188BBD00D360AF /* RxKakaoSDKAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328542C251849F200DCDC27 /* RxKakaoSDKAuth.framework */; };
+		23C76EFE25188BCF00D360AF /* KakaoSDKTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853F82518499C00DCDC27 /* KakaoSDKTemplate.framework */; };
+		23C76EFF25188BD400D360AF /* KakaoSDKTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232853DA2518498200DCDC27 /* KakaoSDKTalk.framework */; };
+		23C76F0025188BEA00D360AF /* RxKakaoSDKAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328542C251849F200DCDC27 /* RxKakaoSDKAuth.framework */; };
+		23C76F0125188BF900D360AF /* KakaoSDKUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328540E251849B900DCDC27 /* KakaoSDKUser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		232854DA25187C2F00DCDC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2328530B251847DD00DCDC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232853232518487F00DCDC27;
+			remoteInfo = KakaoSDKCommon;
+		};
+		23C76ECE251889B500D360AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2328530B251847DD00DCDC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232853232518487F00DCDC27;
+			remoteInfo = KakaoSDKCommon;
+		};
+		23C76ED2251889BB00D360AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2328530B251847DD00DCDC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232853232518487F00DCDC27;
+			remoteInfo = KakaoSDKCommon;
+		};
+		23C76ED7251889BD00D360AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2328530B251847DD00DCDC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232853232518487F00DCDC27;
+			remoteInfo = KakaoSDKCommon;
+		};
+		23C76EDB251889C000D360AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2328530B251847DD00DCDC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232853232518487F00DCDC27;
+			remoteInfo = KakaoSDKCommon;
+		};
+		23C76EDF251889C500D360AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2328530B251847DD00DCDC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232853232518487F00DCDC27;
+			remoteInfo = KakaoSDKCommon;
+		};
+		23C76EE4251889C700D360AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2328530B251847DD00DCDC27 /* Project object */;
 			proxyType = 1;
@@ -177,6 +250,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				23C76ECD251889B500D360AF /* KakaoSDKCommon.framework in Embed Frameworks */,
 				232854BA25185C2500DCDC27 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -188,6 +262,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				23C76ED6251889BD00D360AF /* KakaoSDKCommon.framework in Embed Frameworks */,
 				232854BD25185C6700DCDC27 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -199,6 +274,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				23C76EDA251889C000D360AF /* KakaoSDKCommon.framework in Embed Frameworks */,
 				232854C025185C8300DCDC27 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -210,6 +286,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				23C76EE3251889C700D360AF /* KakaoSDKCommon.framework in Embed Frameworks */,
 				232854C325185C9A00DCDC27 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -277,6 +354,28 @@
 			dstSubfolderSpec = 10;
 			files = (
 				232854D625185D4A00DCDC27 /* RxAlamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C76ED4251889BB00D360AF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23C76ED1251889BB00D360AF /* KakaoSDKCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C76EE1251889C500D360AF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23C76EDE251889C500D360AF /* KakaoSDKCommon.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +539,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76ECC251889B500D360AF /* KakaoSDKCommon.framework in Frameworks */,
+				23C76EF325188A2300D360AF /* KakaoSDKTemplate.framework in Frameworks */,
 				232854B925185C2500DCDC27 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +549,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76ED0251889BB00D360AF /* KakaoSDKCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +557,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EF425188A5100D360AF /* KakaoSDKAuth.framework in Frameworks */,
+				23C76ED5251889BD00D360AF /* KakaoSDKCommon.framework in Frameworks */,
 				232854BC25185C6700DCDC27 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,7 +567,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EF625188A8300D360AF /* KakaoSDKAuth.framework in Frameworks */,
+				23C76ED9251889C000D360AF /* KakaoSDKCommon.framework in Frameworks */,
 				232854BF25185C8300DCDC27 /* Alamofire.framework in Frameworks */,
+				23C76EF725188A8900D360AF /* KakaoSDKTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +578,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EDD251889C500D360AF /* KakaoSDKCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +586,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EF825188B2900D360AF /* KakaoSDKAuth.framework in Frameworks */,
+				23C76EE2251889C700D360AF /* KakaoSDKCommon.framework in Frameworks */,
 				232854C225185C9A00DCDC27 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +596,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EED251889F400D360AF /* RxKakaoSDKCommon.framework in Frameworks */,
 				232854C625185CBA00DCDC27 /* RxAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +605,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EF925188B5F00D360AF /* KakaoSDKCommon.framework in Frameworks */,
 				232854C925185CD800DCDC27 /* RxAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +614,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EEE251889FB00D360AF /* RxKakaoSDKCommon.framework in Frameworks */,
+				23C76EFA25188B7C00D360AF /* KakaoSDKLink.framework in Frameworks */,
 				232854CC25185D0000DCDC27 /* RxAlamofire.framework in Frameworks */,
+				23C76EFB25188B8600D360AF /* KakaoSDKTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +625,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EFC25188BAC00D360AF /* RxKakaoSDKAuth.framework in Frameworks */,
+				23C76EF0251889FD00D360AF /* RxKakaoSDKCommon.framework in Frameworks */,
 				232854CF25185D1A00DCDC27 /* RxAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,7 +635,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76EFD25188BBD00D360AF /* RxKakaoSDKAuth.framework in Frameworks */,
+				23C76EF1251889FD00D360AF /* RxKakaoSDKCommon.framework in Frameworks */,
+				23C76EFF25188BD400D360AF /* KakaoSDKTalk.framework in Frameworks */,
 				232854D225185D4000DCDC27 /* RxAlamofire.framework in Frameworks */,
+				23C76EFE25188BCF00D360AF /* KakaoSDKTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +647,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C76F0025188BEA00D360AF /* RxKakaoSDKAuth.framework in Frameworks */,
+				23C76EF2251889FE00D360AF /* RxKakaoSDKCommon.framework in Frameworks */,
+				23C76F0125188BF900D360AF /* KakaoSDKUser.framework in Frameworks */,
 				232854D525185D4A00DCDC27 /* RxAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1327,6 +1451,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				23C76ECF251889B500D360AF /* PBXTargetDependency */,
 			);
 			name = KakaoSDKLink;
 			productName = KakaoSDKLink;
@@ -1341,10 +1466,12 @@
 				232853A02518492200DCDC27 /* Sources */,
 				232853A12518492200DCDC27 /* Frameworks */,
 				232853A22518492200DCDC27 /* Resources */,
+				23C76ED4251889BB00D360AF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				23C76ED3251889BB00D360AF /* PBXTargetDependency */,
 			);
 			name = KakaoSDKNavi;
 			productName = KakaoSDKNavi;
@@ -1364,6 +1491,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				23C76ED8251889BD00D360AF /* PBXTargetDependency */,
 			);
 			name = KakaoSDKStory;
 			productName = KakaoSDKStory;
@@ -1383,6 +1511,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				23C76EDC251889C000D360AF /* PBXTargetDependency */,
 			);
 			name = KakaoSDKTalk;
 			productName = KakaoSDKTalk;
@@ -1397,10 +1526,12 @@
 				232853F42518499C00DCDC27 /* Sources */,
 				232853F52518499C00DCDC27 /* Frameworks */,
 				232853F62518499C00DCDC27 /* Resources */,
+				23C76EE1251889C500D360AF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				23C76EE0251889C500D360AF /* PBXTargetDependency */,
 			);
 			name = KakaoSDKTemplate;
 			productName = KakaoSDKTemplate;
@@ -1420,6 +1551,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				23C76EE5251889C700D360AF /* PBXTargetDependency */,
 			);
 			name = KakaoSDKUser;
 			productName = KakaoSDKUser;
@@ -1905,6 +2037,36 @@
 			isa = PBXTargetDependency;
 			target = 232853232518487F00DCDC27 /* KakaoSDKCommon */;
 			targetProxy = 232854DA25187C2F00DCDC27 /* PBXContainerItemProxy */;
+		};
+		23C76ECF251889B500D360AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232853232518487F00DCDC27 /* KakaoSDKCommon */;
+			targetProxy = 23C76ECE251889B500D360AF /* PBXContainerItemProxy */;
+		};
+		23C76ED3251889BB00D360AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232853232518487F00DCDC27 /* KakaoSDKCommon */;
+			targetProxy = 23C76ED2251889BB00D360AF /* PBXContainerItemProxy */;
+		};
+		23C76ED8251889BD00D360AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232853232518487F00DCDC27 /* KakaoSDKCommon */;
+			targetProxy = 23C76ED7251889BD00D360AF /* PBXContainerItemProxy */;
+		};
+		23C76EDC251889C000D360AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232853232518487F00DCDC27 /* KakaoSDKCommon */;
+			targetProxy = 23C76EDB251889C000D360AF /* PBXContainerItemProxy */;
+		};
+		23C76EE0251889C500D360AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232853232518487F00DCDC27 /* KakaoSDKCommon */;
+			targetProxy = 23C76EDF251889C500D360AF /* PBXContainerItemProxy */;
+		};
+		23C76EE5251889C700D360AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232853232518487F00DCDC27 /* KakaoSDKCommon */;
+			targetProxy = 23C76EE4251889C700D360AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
